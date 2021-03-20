@@ -1,0 +1,49 @@
+.todo{
+    width: 300px;
+    margin: auto;
+   
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 10px 5px;
+    height: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 10px 2px white;
+
+}
+
+.strikethrough{
+  float: left;
+  cursor: pointer;
+  width:20px;
+  height: 20px;
+  box-shadow: 0px 0px 5px 5px red; 
+  background-color: green;
+}
+label{
+    font-weight: bold;
+    float: left;
+    font-size: 20px;
+    margin-left: 10px;
+    color: black;
+    background-color: white ;
+}
+.strikethrough:checked + label {
+    text-decoration:line-through;
+    text-decoration-thickness: 2px;
+   color: green;
+  }
+.strikethrough:checked{
+   
+   box-shadow: 0px 0px 5px 5px green; 
+  }
+
+i{
+    float: right;
+    cursor: pointer;
+   margin-top: 5px;
+   color: red;
+   background-color: white;
+   font-weight: 900px;
+   font-size: 24px;
+}
+
